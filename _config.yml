@@ -8,7 +8,7 @@ last_name: Zhou
 contact_note: >
   zhouwenjiesh@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I am a PhD graduate in Computer engineering from the University of Sydney, supervised by Philip Leong. My research focuses on FPGA-based AI accelerator design and energy-effcient neural network training, with a specific emphasis on low-precision block arithmetic.
+  I am a PhD graduate focusing on low-precision block arithmetic, FPGA, and AI training accelerator design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
