@@ -17,7 +17,7 @@ Performance is crucial for the evolution of Deep Neural Networks (DNNs), particu
     </div>
 </div>
 <div class="caption">
-   Left is the BM MAC unit, right is the BM systolic array for the global block.
+   Left: BM MAC unit; Right: the BM systolic array for the global block.
 </div>
 
 ### Key Contributions:
