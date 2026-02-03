@@ -18,12 +18,9 @@ social: true
 ---
 
 ## About Me
+I am a PhD candidate in **Computer Engineering** at the **University of Sydney**, supervised by **Prof. Philip Leong**. My research lies at the intersection of **Computer Architecture** and **Machine Learning**, with a focus on designing energy-efficient FPGA accelerators for Deep Neural Networks. 
 
-I am a PhD candidate in **Computer Engineering** at the **University of Sydney**, supervised by **Prof. Philip Leong**. My research lies at the intersection of **Computer Architecture** and **Machine Learning**, with a focus on designing energy-efficient FPGA accelerators for Deep Neural Networks.
-
-My research investigates **low-precision block arithmetic** as a critical technique for energy-efficient training and inference. I have developed improved block arithmetic algorithms and implementation methodologies, including the **delay update** scheme, to demonstrate how hardware efficiency can be achieved without sacrificing accuracy.
-
-Prior to my PhD, I earned my Master's degree from **Peking University**, where I focused on machine vision and automated diagnostic systems.
+Previously, I received my Master's degree from **Peking University**, where I focused on machine vision and automated diagnostic systems.
 
 ## Research Interests
 - **Hardware Acceleration:** FPGA-based AI training and inference.
