@@ -1,0 +1,24 @@
+<!-- 
+  figure.html - 用于 al-folio 的图片显示组件
+  
+  使用方法：
+  {% include figure.html 
+     path="assets/img/example.png" 
+     title="Image Title" 
+     class="img-fluid rounded z-depth-1"
+     caption="Optional caption text"
+     width="500px"
+  %}
+-->
+
+<figure {% if include.class %}class="{{ include.class }}"{% endif %}>
+  <img src="{{ include.path | relative_url }}" 
+       alt="{{ include.title | default: 'Image' }}"
+       {% if include.class %}class="{{ include.class }}"{% endif %}
+       {% if include.width %}style="width: {{ include.width }};"{% endif %}
+       loading="lazy">
+  
+  {% if include.caption %}
+  <figcaption class="caption">{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>
