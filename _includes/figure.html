@@ -11,13 +11,27 @@
   %}
 -->
 
-<figure {% if include.class %}class="{{ include.class }}"{% endif %}>
-  <img src="{{ include.path | relative_url }}" 
-       alt="{{ include.title | default: 'Image' }}"
-       {% if include.class %}class="{{ include.class }}"{% endif %}
-       {% if include.width %}style="width: {{ include.width }};"{% endif %}
-       loading="lazy">
-  
+<figure {% if include.class %}class="{{ include.class }}" {% endif %}>
+  <img
+    src="{{ include.path | relative_url }}"
+    alt="{{ include.title | default: 'Image' }}"
+    {%
+    if
+    include.class
+    %}class="{{ include.class }}"
+    {%
+    endif
+    %}
+    {%
+    if
+    include.width
+    %}style="width: {{ include.width }};"
+    {%
+    endif
+    %}
+    loading="lazy"
+  />
+
   {% if include.caption %}
   <figcaption class="caption">{{ include.caption }}</figcaption>
   {% endif %}

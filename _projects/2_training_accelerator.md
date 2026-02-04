@@ -21,6 +21,7 @@ Along with increasing DNN model scale, the training cost is becoming a new probl
 </div>
 
 ### Key Contributions:
+
 - **4-bit Training Implementation:** Proposed the first FPGA implementation of a 4-bit BM, mixed-precision neural network training system for time-series forecasting.
 - **Mixed-Precision & Cross-block Strategy:** propose a novel cross-block BM MAC unit that allows independent block and tile sizes and utilizes a higher precision buffer to improve accuracy.
 - **GEMM Kernel Design:** BM GEMM kernel that supports runtime configuration of precision for forward and back-propagation computation.

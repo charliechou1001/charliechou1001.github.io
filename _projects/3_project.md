@@ -6,9 +6,9 @@ importance: 3
 category: PhD Research
 ---
 
-One of the most significant challenges in block arithmetic for DNN training is the **rescaling** computation. To maintain numerical stability, a common approach is **maximum calibration**, which requires scanning all elements in a block to determine the block scale. However, this introduces critical data dependencies and significant hardware overhead, such as the need for large buffers and pipeline stalls. 
+One of the most significant challenges in block arithmetic for DNN training is the **rescaling** computation. To maintain numerical stability, a common approach is **maximum calibration**, which requires scanning all elements in a block to determine the block scale. However, this introduces critical data dependencies and significant hardware overhead, such as the need for large buffers and pipeline stalls.
 
-In this work, we propose a lightweight delay update scheme, **Delay Update**, that simplifies the rescaling process while maintaining high training accuracy. This is the first delayed scaling method optimized for both the global and local block (flexible block) configurations, offering the resource-efficient rescaling logic to date. 
+In this work, we propose a lightweight delay update scheme, **Delay Update**, that simplifies the rescaling process while maintaining high training accuracy. This is the first delayed scaling method optimized for both the global and local block (flexible block) configurations, offering the resource-efficient rescaling logic to date.
 
 <div class="row justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -20,6 +20,7 @@ In this work, we propose a lightweight delay update scheme, **Delay Update**, th
 </div>
 
 ### Key Contributions:
+
 - **Probabilistic Delay Update:** We propose a novel, hardware-efficient delay update scheme scheme based on probabilistic estimation. For scenarios where simple delay updates may drift, we introduce an optimized Weighted Moving Average predictor.
 - **Hardware Performance Analysis:** We establish the first performance model to quantify the hardware overhead of data dependency in MX-based GEMM accelerators. Our modeling, validated on FPGA synthesis, reveals that the efficacy of delayed scaling is highly sensitive to block size.
 - **Empirical Validation:** Our results show that the proposed scheme achieves near-zero accuracy loss in various network training tasks. And our performance estimation demonstrates that the delayed scaling methods can improve hardware latency by approximately 40% in Transformer or LLM.

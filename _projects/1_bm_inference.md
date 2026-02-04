@@ -21,8 +21,9 @@ Performance is crucial for the evolution of Deep Neural Networks (DNNs), particu
 </div>
 
 ### Key Contributions:
+
 - **First BM Accelerator:** We proposed the BM implementation for inference, which marks the first FPGA-based accelerator using BM arithmetic at the time of publication.
 - **Hardware Efficiency:** The design demonstrates significant hardware efficiency and accuracy benefits over traditional integer and floating-point implementations when applied to N-BEATS.
 - **Practical Validation:** The research outcomes show that block arithmetic offers the same accuracy as contemporary approaches but with lower resource utilization.
- 
+
 The results of this research were published in **IEEE APCCAS 2022**.
