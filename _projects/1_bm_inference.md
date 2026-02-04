@@ -3,7 +3,7 @@ layout: page
 title: BM Inference Accelerator
 description: Hardware-efficient implementation of N-BEATS using block minifloat (BM) arithmetic.
 importance: 1
-category: PhD Research
+category: work
 ---
 
 Performance is crucial for the evolution of Deep Neural Networks (DNNs), particularly as computational requirements surge. This project investigates block arithmetic as a promising technique to reduce precision requirements and power consumption by using shared exponents to expand dynamic range. We specifically demonstrate these advantages through an N-BEATS based inference accelerator implemented on FPGA hardware.

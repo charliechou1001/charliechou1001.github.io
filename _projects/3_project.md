@@ -3,7 +3,7 @@ layout: page
 title: Delay Update Scheme
 description: Efficient block arithmetic rescaling for neural network training acceleration.
 importance: 3
-category: PhD Research
+category: work
 ---
 
 One of the most significant challenges in block arithmetic for DNN training is the **rescaling** computation. To maintain numerical stability, a common approach is **maximum calibration**, which requires scanning all elements in a block to determine the block scale. However, this introduces critical data dependencies and significant hardware overhead, such as the need for large buffers and pipeline stalls.
