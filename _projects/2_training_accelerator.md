@@ -1,7 +1,8 @@
 ---
 layout: page
-title: FPGA-based block minifloat training accelerator for a time series prediction network
+title: Block arithmetic for local block
 description: Mixed-precision neural network training using 4-bit block minifloat.
+img: assets/img/publication_preview/BMGEMM-intro.png
 importance: 2
 category: work
 ---
