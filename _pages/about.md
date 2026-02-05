@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Email: zhouwenjiesh@gmail.com
+subtitle:  "Email: zhouwenjiesh@gmail.com"
 
 profile:
   align: right
