@@ -19,9 +19,9 @@ social: true
 
 ## About Me
 
-I am a PhD candidate in **Computer Engineering** at the **University of Sydney**, working under the supervision of **Prof. Philip Leong**. My research focuses on the intersection of computer architecture and deep learning, specifically addressing the surging computational requirements of modern Deep Neural Networks (DNNs). 
+I am a PhD candidate in **Computer Engineering** at the **University of Sydney**, working under the supervision of **Prof. Philip Leong**. My research focuses on the intersection of computer architecture and deep learning, specifically addressing the surging computational requirements of modern Deep Neural Networks (DNNs).
 
-My dissertation investigates **low-precision block arithmetic** as a critical technique for energy-efficient training and inference. I have developed improved block arithmetic algorithms and implementation methodologies, including the **delay update** scheme, to demonstrate how hardware efficiency can be achieved without sacrificing accuracy. 
+My dissertation investigates **low-precision block arithmetic** as a critical technique for energy-efficient training and inference. I have developed improved block arithmetic algorithms and implementation methodologies, including the **delay update** scheme, to demonstrate how hardware efficiency can be achieved without sacrificing accuracy.
 
 Prior to my PhD, I earned my Master's degree from **Peking University**, where I focused on machine vision and automated diagnostic systems.
 
@@ -38,6 +38,7 @@ Prior to my PhD, I earned my Master's degree from **Peking University**, where I
 - **B.S. in Electrical Engineering**, East China University of Science and Technology, 2009 — 2013
 
 ## Skills
+
 - Practical experience with Xilinx Alveo data center cards (Alveo U50, Alveo U250)
 - Good command of High-Level Synthesis (HLS) and Verilog
 - Project experience in computer vision, biological image processing, and object character recognition (OCR)
